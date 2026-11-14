@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 270" fill="none">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8402f"/><stop offset="1" stop-color="#b5281f"/></linearGradient>
+<linearGradient id="roof" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9d1d6"/><stop offset="1" stop-color="#7f8a92"/></linearGradient>
+<linearGradient id="silo" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8e8a80"/><stop offset=".35" stop-color="#d8d3c4"/><stop offset=".7" stop-color="#b9b4a5"/><stop offset="1" stop-color="#78746a"/></linearGradient>
+<pattern id="planks" width="9" height="10" patternUnits="userSpaceOnUse"><rect width="9" height="10" fill="none"/><path d="M0 0V10" stroke="#8e1e18" stroke-opacity=".35" stroke-width="1.2"/></pattern>
+</defs>
+<ellipse cx="220" cy="262" rx="215" ry="9" fill="#2c4a14" opacity=".28"/>
+<!-- silo -->
+<rect x="345" y="52" width="48" height="205" fill="url(#silo)"/>
+<path d="M345 52c0-26 10-40 24-40s24 14 24 40z" fill="#9aa3a8"/>
+<path d="M345 52c0-26 10-40 24-40s24 14 24 40z" fill="url(#silo)" opacity=".6"/>
+<g stroke="#6f6b61" stroke-opacity=".45"><path d="M345 90h48M345 128h48M345 166h48M345 204h48"/></g>
+<rect x="364" y="2" width="10" height="12" fill="#8b9196"/>
+<!-- barn body -->
+<path d="M30 258V118L118 62H300L390 118V258z" fill="url(#wall)"/>
+<path d="M30 258V118L118 62H300L390 118V258z" fill="url(#planks)"/>
+<!-- gambrel roof -->
+<path d="M8 124L112 52H306L412 124L396 132L300 70H118L24 132z" fill="url(#roof)" stroke="#5f6a72" stroke-width="2"/>
+<path d="M112 52L306 52" stroke="#eef2f4" stroke-width="3"/>
+<g stroke="#6a757d" stroke-opacity=".5" stroke-width="1.2"><path d="M60 100L90 80M110 96L128 68M165 70V52M215 70V52M265 70V52M300 70L318 90M350 108L328 82"/></g>
+<!-- loft window -->
+<rect x="190" y="82" width="38" height="46" rx="2" fill="#fff"/>
+<rect x="195" y="87" width="28" height="36" fill="#203b52"/>
+<path d="M209 87v36M195 105h28" stroke="#fff" stroke-width="2.5"/>
+<!-- main door -->
+<rect x="150" y="165" width="118" height="93" fill="#fff"/>
+<rect x="157" y="172" width="104" height="86" fill="#c0342a"/>
+<path d="M157 172L261 258M261 172L157 258" stroke="#fff" stroke-width="9"/>
+<rect x="157" y="172" width="104" height="86" stroke="#fff" stroke-width="7"/>
+<!-- windows -->
+<g fill="#fff"><rect x="60" y="150" width="30" height="34"/><rect x="104" y="150" width="30" height="34"/><rect x="298" y="150" width="30" height="34"/><rect x="342" y="150" width="30" height="34"/></g>
+<g fill="#1f3a52"><rect x="65" y="155" width="20" height="24"/><rect x="109" y="155" width="20" height="24"/><rect x="303" y="155" width="20" height="24"/><rect x="347" y="155" width="20" height="24"/></g>
+<g stroke="#fff" stroke-width="2"><path d="M75 155v24M65 167h20M119 155v24M109 167h20M313 155v24M303 167h20M357 155v24M347 167h20"/></g>
+<path d="M30 258H390" stroke="#fff" stroke-width="5"/>
+<path d="M30 118V258M390 118V258" stroke="#fff" stroke-width="5"/>
+</svg>

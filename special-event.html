@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#9fd4ee">
+  <meta name="description" content="Botble Farmart Special Event — get fresh products at a special discount.">
+  <title>Special Event — Botble Farmart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/event.css">
+</head>
+<body class="event">
+  <main class="estage" id="estage">
+
+    <!-- Natural farm background (sharp inside the tear, softened behind the text) -->
+    <div class="bg" aria-hidden="true">
+      <img class="bg-photo" src="images/natural-farm-background.jpg" alt="">
+      <div class="bg-soft"><img src="images/natural-farm-background.jpg" alt=""></div>
+      <div class="bg-sun"></div>
+    </div>
+
+    <div class="ecomp" id="ecomp">
+      <!-- Torn paper ring is drawn here by assets/js/event.js -->
+      <svg class="paper" id="paper" aria-hidden="true" focusable="false"></svg>
+
+      <div class="cow-zone" id="cowZone">
+        <div class="cow-shadow" aria-hidden="true"></div>
+        <div class="cow-wrap" id="cowWrap">
+          <img class="cow" src="images/PlayfulCowReachingForward.png" alt="A happy cow breaking through the page">
+        </div>
+      </div>
+
+      <!-- Foreground produce -->
+      <div class="grass-front" aria-hidden="true"></div>
+      <img class="bush bush-1" src="assets/svg/leaves-cluster.svg" alt="" aria-hidden="true">
+      <img class="bush bush-2" src="assets/svg/leaves-cluster.svg" alt="" aria-hidden="true">
+      <img class="veg veg-crate" src="assets/svg/veg-crate.svg" alt="" aria-hidden="true">
+      <img class="veg veg-basket" src="assets/svg/veg-basket.svg" alt="" aria-hidden="true">
+      <div class="efence" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+      <!-- Promo column -->
+      <section class="promo" aria-labelledby="event-title">
+        <a class="logo" href="index.html" aria-label="Botble Farmart — home">
+          <img class="logo-mark" src="assets/svg/logo-mark.svg" alt="">
+          <span class="logo-text"><b class="logo-top">Botble</b><b class="logo-main">Farm<i>art</i></b></span>
+          <span class="logo-tag">Fresh • Healthy • Local</span>
+        </a>
+
+        <h1 id="event-title" class="ribbon">
+          <img class="ribbon-bg" src="assets/svg/ribbon-red.svg" alt="">
+          <span class="r-special">Special</span>
+          <span class="r-event" data-text="Event!">Event!</span>
+        </h1>
+
+        <p class="get-fresh">Get Fresh Products at</p>
+        <p class="discount"><img src="assets/svg/brush-green.svg" alt=""><span>Special <b>Discount</b></span></p>
+
+        <a class="cta cta-shop" id="shop-now" href="shop.html">
+          <svg class="cart-ico" viewBox="0 0 48 40" aria-hidden="true"><path d="M2 4h7l6 22h22l6-16H12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 15h22M18 21h20" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><circle cx="19" cy="34" r="3.6" fill="#fff"/><circle cx="34" cy="34" r="3.6" fill="#fff"/></svg>
+          <span>Shop Now</span>
+          <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4l9 8-9 8" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </section>
+
+      <div class="trust etrust" aria-label="Our promises">
+        <span class="trust-item"><img src="assets/svg/icon-fresh.svg" alt=""><span>100%<br>Fresh</span></span>
+        <i class="trust-sep" aria-hidden="true"></i>
+        <span class="trust-item"><img src="assets/svg/icon-safe.svg" alt=""><span>Safe &amp;<br>Trusted</span></span>
+        <i class="trust-sep" aria-hidden="true"></i>
+        <span class="trust-item"><img class="wide" src="assets/svg/icon-delivery.svg" alt=""><span>Fast<br>Delivery</span></span>
+      </div>
+
+      <!-- Floating leaves -->
+      <div class="floaters" aria-hidden="true">
+        <img class="leaf f1" src="assets/svg/leaf-a.svg" alt=""><img class="leaf f2" src="assets/svg/leaf-b.svg" alt="">
+        <img class="leaf f3" src="assets/svg/leaf-a.svg" alt=""><img class="leaf f4" src="assets/svg/leaf-b.svg" alt="">
+        <img class="leaf f5" src="assets/svg/leaf-a.svg" alt=""><img class="leaf f6" src="assets/svg/leaf-b.svg" alt="">
+        <img class="leaf f7" src="assets/svg/leaf-a.svg" alt=""><img class="leaf f8" src="assets/svg/leaf-b.svg" alt="">
+      </div>
+    </div>
+
+    <a class="close-btn" id="event-close" href="index.html" aria-label="Close and go back to the start page">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5L19 19M19 5L5 19"/></svg>
+    </a>
+  </main>
+  <script src="assets/js/transitions.js"></script>
+  <script src="assets/js/event.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" fill="none">
+<defs>
+<linearGradient id="wk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8a864"/><stop offset="1" stop-color="#a36f33"/></linearGradient>
+<radialGradient id="ap" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ff5e4d"/><stop offset=".6" stop-color="#d4181c"/><stop offset="1" stop-color="#8b0f12"/></radialGradient>
+<radialGradient id="ap2" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ffd37a"/><stop offset=".6" stop-color="#f08a1f"/><stop offset="1" stop-color="#b8560f"/></radialGradient>
+<linearGradient id="pep" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe033"/><stop offset="1" stop-color="#e3a100"/></linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7cc443"/><stop offset="1" stop-color="#2d7d2a"/></linearGradient>
+<pattern id="weave" width="26" height="18" patternUnits="userSpaceOnUse"><path d="M0 9Q6.5 0 13 9T26 9" stroke="#7b5226" stroke-width="2.5" fill="none"/><path d="M0 18Q6.5 9 13 18T26 18" stroke="#7b5226" stroke-width="2.5" fill="none" opacity=".6"/></pattern>
+</defs>
+<!-- handle -->
+<path d="M60 190Q220 -40 380 190" stroke="#8d5f2c" stroke-width="16" stroke-linecap="round"/>
+<path d="M60 190Q220 -40 380 190" stroke="#d8a864" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+<!-- greens -->
+<path d="M70 210Q60 150 110 140Q100 180 140 180Q120 130 170 110Q160 160 196 168Q196 110 250 100Q240 150 270 160Q290 120 330 130Q312 170 340 190Q380 180 390 210z" fill="url(#gl)" stroke="#2d7d2a" stroke-opacity=".4"/>
+<!-- produce -->
+<circle cx="150" cy="190" r="56" fill="url(#ap)"/>
+<path d="M150 134Q146 120 158 108" stroke="#5a3a1a" stroke-width="5" stroke-linecap="round"/>
+<path d="M156 118Q176 104 192 116Q176 128 156 118z" fill="#4f9c2f"/>
+<ellipse cx="130" cy="170" rx="12" ry="8" fill="#fff" opacity=".5" transform="rotate(-30 130 170)"/>
+<path d="M226 150Q196 150 196 196Q196 236 230 244Q262 246 276 214Q290 160 258 144Q246 140 236 146z" fill="url(#pep)"/>
+<path d="M236 146Q240 126 258 124" stroke="#3f8f2a" stroke-width="9" stroke-linecap="round"/>
+<path d="M214 170Q212 196 224 220" stroke="#fff" stroke-opacity=".55" stroke-width="6" stroke-linecap="round"/>
+<circle cx="316" cy="190" r="46" fill="url(#ap2)"/>
+<ellipse cx="302" cy="174" rx="10" ry="7" fill="#fff" opacity=".5" transform="rotate(-30 302 174)"/>
+<!-- basket body -->
+<path d="M30 206H410L376 372Q372 388 352 388H88Q68 388 64 372z" fill="url(#wk)"/>
+<path d="M30 206H410L376 372Q372 388 352 388H88Q68 388 64 372z" fill="url(#weave)"/>
+<path d="M30 206H410L376 372Q372 388 352 388H88Q68 388 64 372z" stroke="#7b5226" stroke-width="3"/>
+<rect x="24" y="196" width="392" height="24" rx="12" fill="#c28f4c" stroke="#7b5226" stroke-width="3"/>
+</svg>

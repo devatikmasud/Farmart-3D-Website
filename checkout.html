@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f8f1">
+  <title>Checkout — Botble Farmart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/shop.css">
+  <link rel="stylesheet" href="assets/css/basket.css">
+  <link rel="stylesheet" href="assets/css/checkout.css">
+</head>
+<body class="store checkout-page">
+  <header class="store-nav">
+    <a class="logo" href="index.html" aria-label="Botble Farmart — start page">
+      <img class="logo-mark" src="assets/svg/logo-mark.svg" alt="">
+      <span class="logo-text"><b class="logo-top">Botble</b><b class="logo-main">Farm<i>art</i></b></span>
+      <span class="logo-tag">Fresh • Healthy • Local</span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a class="nav-link" href="basket.html">← Back to Basket</a>
+      <a class="nav-link" href="shop.html">Shop</a>
+    </nav>
+  </header>
+
+  <main class="store-main">
+    <div class="preview-note"><strong>Preview only</strong><span>Sample order flow. No payment or order is sent, and customer details stay in this browser.</span></div>
+    <p class="eyebrow">Almost there</p>
+    <h1 class="page-title">Your delivery details</h1>
+    <p class="page-sub">Add your details to complete this sample checkout.</p>
+
+    <section class="empty-state panel" id="checkout-empty" hidden>
+      <img src="images/products/spinach.svg" alt="">
+      <h2>Your basket is empty</h2><p>Add a few fresh picks before continuing to checkout.</p>
+      <a class="btn btn-solid" href="shop.html">Browse the shop</a>
+    </section>
+
+    <div class="basket-layout" id="checkout-layout">
+      <section class="panel" aria-labelledby="form-title">
+        <div class="step-title"><span class="step-number">1</span><div><h2 id="form-title">Customer &amp; delivery information</h2><p>All fields marked * are required.</p></div></div>
+        <form id="checkout-form" novalidate>
+          <div class="field-grid">
+            <div class="field full"><label for="customer-name">Full name <span>*</span></label><input id="customer-name" name="name" type="text" autocomplete="name" maxlength="100" required placeholder="Your full name"><small class="field-error" id="name-error"></small></div>
+            <div class="field"><label for="customer-email">Email address <span>*</span></label><input id="customer-email" name="email" type="email" autocomplete="email" maxlength="160" required placeholder="you@example.com"><small class="field-error" id="email-error"></small></div>
+            <div class="field"><label for="customer-phone">Phone number <span>*</span></label><input id="customer-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="24" required placeholder="Your contact number"><small class="field-error" id="phone-error"></small></div>
+            <div class="field full"><label for="delivery-address">Delivery address <span>*</span></label><textarea id="delivery-address" name="address" autocomplete="street-address" rows="4" maxlength="400" required placeholder="House, street, area, city and postal code"></textarea><small class="field-error" id="address-error"></small></div>
+          </div>
+          <p class="note">Preview only: these details are validated in this browser and are not saved or sent anywhere.</p>
+          <button class="cta cta-block" id="place-order" type="submit">Complete demo checkout <span aria-hidden="true">→</span></button>
+          <p class="note center">No payment will be taken in this preview.</p>
+        </form>
+      </section>
+      <aside class="panel summary" aria-labelledby="summary-title">
+        <p class="eyebrow">Your selection</p>
+        <h2 id="summary-title">Order summary (<span id="summary-count">0</span>)</h2>
+        <div id="summary-items"></div>
+        <div class="sum-line total"><span>Subtotal</span><strong id="summary-total">$0</strong></div>
+        <p class="note">Delivery cost and availability are not configured in this demo.</p>
+        <a class="btn" href="basket.html">Edit basket</a>
+      </aside>
+    </div>
+
+    <section class="panel success" id="success-panel" hidden role="status" aria-live="polite">
+      <span class="success-mark" aria-hidden="true">✓</span>
+      <p class="eyebrow">Preview complete</p>
+      <h2 tabindex="-1">Thanks — your demo order is ready.</h2>
+      <p>This is a front-end preview only. No order was sent to Farmart and no payment was made.</p>
+      <div class="order-ref">Demo reference <strong id="order-reference">FM-DEMO</strong></div>
+      <a class="btn btn-solid" href="shop.html">Return to shop</a>
+    </section>
+  </main>
+
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/transitions.js"></script>
+  <script src="assets/js/checkout.js"></script>
+</body>
+</html>

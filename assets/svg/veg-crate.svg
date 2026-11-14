@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" fill="none">
+<defs>
+<linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b27a"/><stop offset="1" stop-color="#a97b45"/></linearGradient>
+<linearGradient id="car" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff9a2e"/><stop offset="1" stop-color="#e0661a"/></linearGradient>
+<radialGradient id="tom" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ff6a55"/><stop offset=".55" stop-color="#e2231b"/><stop offset="1" stop-color="#9c120d"/></radialGradient>
+<radialGradient id="let" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="#d7ee86"/><stop offset="1" stop-color="#5faa2e"/></radialGradient>
+<linearGradient id="lf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7cc443"/><stop offset="1" stop-color="#2d7d2a"/></linearGradient>
+</defs>
+<!-- leafy greens at back -->
+<g>
+<ellipse cx="170" cy="170" rx="150" ry="110" fill="url(#let)"/>
+<g fill="url(#lf)" stroke="#2d7d2a" stroke-opacity=".4"><path d="M40 190Q20 120 70 90Q60 130 96 140Q80 100 120 66Q122 110 150 118Q150 70 190 46Q192 96 214 110Q230 66 262 70Q246 110 250 150Q290 130 300 160Q270 190 250 230L60 240z"/></g>
+<g stroke="#e9f8a8" stroke-opacity=".6" stroke-width="2" fill="none"><path d="M120 220Q120 150 130 112M170 220Q176 150 190 80M220 220Q224 160 250 120M80 215Q70 160 66 124"/></g>
+</g>
+<!-- carrots -->
+<g>
+<g transform="translate(230 150) rotate(28)"><path d="M0 0L-26 0Q-14 150 0 215Q14 150 26 0z" fill="url(#car)"/><path d="M-14 40h22M-10 90h18M-6 140h12" stroke="#b34a10" stroke-opacity=".45" stroke-width="3"/><path d="M-8 -2Q-30 -50 -16 -92Q-6 -48 0 -4Q6 -60 22 -88Q24 -40 10 -4z" fill="#4f9c2f"/></g>
+<g transform="translate(300 160) rotate(52)"><path d="M0 0L-24 0Q-12 140 0 200Q12 140 24 0z" fill="url(#car)"/><path d="M-12 50h20M-8 100h14" stroke="#b34a10" stroke-opacity=".45" stroke-width="3"/><path d="M-6 -2Q-26 -44 -12 -84Q-2 -44 2 -4Q8 -54 20 -80Q22 -36 8 -4z" fill="#4f9c2f"/></g>
+</g>
+<!-- crate -->
+<g>
+<path d="M10 250L440 232L470 424L40 436z" fill="url(#wood)"/>
+<path d="M10 250L440 232L470 424L40 436z" stroke="#7b5629" stroke-width="3"/>
+<path d="M14 300L452 282M20 350L460 334M26 396L466 380" stroke="#7b5629" stroke-width="3"/>
+<g stroke="#8b6232" stroke-opacity=".5" stroke-width="2"><path d="M60 270L200 266M240 262L400 256M70 322L220 318M290 312L430 306M80 374L180 372M250 366L420 360"/></g>
+<path d="M10 250L40 436" stroke="#7b5629" stroke-width="12"/><path d="M440 232L470 424" stroke="#7b5629" stroke-width="12"/>
+</g>
+<!-- tomato in front -->
+<g>
+<ellipse cx="108" cy="312" rx="74" ry="14" fill="#000" opacity=".18"/>
+<circle cx="108" cy="250" r="72" fill="url(#tom)"/>
+<path d="M108 182Q92 160 70 170Q88 176 92 190Q70 190 62 206Q86 204 100 196Q106 214 108 218Q110 200 126 196Q144 204 154 204Q144 188 124 188Q132 176 150 170Q128 160 108 182z" fill="#3f8f2a"/>
+<ellipse cx="82" cy="226" rx="16" ry="10" fill="#fff" opacity=".55" transform="rotate(-30 82 226)"/>
+</g>
+<!-- lettuce front -->
+<g transform="translate(-6 8)">
+<path d="M262 292Q240 240 276 214Q268 250 302 258Q290 226 326 206Q326 244 352 252Q360 214 394 214Q380 244 386 276Q420 266 430 292Q400 330 360 340L280 340z" fill="url(#lf)" stroke="#2d7d2a" stroke-opacity=".4"/>
+<path d="M300 330Q304 280 322 244M340 332Q346 284 372 250" stroke="#e9f8a8" stroke-opacity=".6" stroke-width="2.5"/>
+</g>
+</svg>
